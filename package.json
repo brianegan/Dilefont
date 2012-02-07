@@ -1,0 +1,11 @@
+{
+  "name": "Dilefont",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "wheat": "0.2.5",
+    "stack": "0.1.0",
+    "creationix": "0.3.1"
+  }
+}
+

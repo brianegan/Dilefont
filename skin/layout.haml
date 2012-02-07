@@ -1,0 +1,36 @@
+!!! 5
+%html(lang="en")
+  %head
+    %meta(charset="utf-8")
+    %title #{(title ? title + " - " : "")}How To Node - NodeJS
+    %meta(name="description" content="Learn the zen of coding in NodeJS.")
+    %meta(name="viewport" content="width=device-width")
+    %link(href="/style.css" rel="stylesheet")
+    %link(href="/print.css" rel="stylesheet" media="print")
+    %link(rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml")
+    %link(href="/favicon.ico" rel="icon" type="image/x-icon")
+  %body
+    #container
+      #header
+        %a{href: "/"}
+          .boosh
+            Dilefont
+          .tagline
+            Dilefont. Dilettante. Get it? Get it!?
+      = content
+      
+      #footer
+        %p &copy; 2012 Brian Egan
+        %p Built with&nbsp;
+          %a{href: "https://github.com/creationix/wheat"} Wheat 
+           running on node #{process.version}
+    :script
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    :script
+      try {
+      var pageTracker = _gat._getTracker("UA-12824411-1");
+      pageTracker._trackPageview();
+      } catch(err) {}
+
+    %script(type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js")
