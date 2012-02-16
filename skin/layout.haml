@@ -2,7 +2,7 @@
 %html(lang="en")
   %head
     %meta(charset="utf-8")
-    %title #{(title ? title + " - " : "")}How To Node - NodeJS
+    %title #{(title ? title + " - " : "")}Dilefont
     %meta(name="description" content="Learn the zen of coding in NodeJS.")
     %meta(name="viewport" content="width=device-width")
     %link(href="/style.css" rel="stylesheet")
@@ -16,21 +16,24 @@
           .boosh
             Dilefont
           .tagline
-            Dilefont. Dilettante. Get it? Get it!?
+            Climb on to your seahorse
       = content
-      
+
       #footer
         %p &copy; 2012 Brian Egan
         %p Built with&nbsp;
           %a{href: "https://github.com/creationix/wheat"} Wheat 
            running on node #{process.version}
     :script
-      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    :script
-      try {
-      var pageTracker = _gat._getTracker("UA-12824411-1");
-      pageTracker._trackPageview();
-      } catch(err) {}
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-28982923-1']);
+      _gaq.push(['_setDomainName', 'dilefont.com']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
 
     %script(type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js")
