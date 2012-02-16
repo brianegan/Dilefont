@@ -7,4 +7,4 @@ After too much mucking around, I've finally settled on Wheat. Ya you know it!
 
 ## Decisions, Decisions
 
-Which blog engine do I go with? Wheat, that's what.
+Which blog engine do I go with? Wheat, that's what. Why do I do this to myself?
