@@ -30,4 +30,4 @@ So I wrote this blog using NodeJS. It's currently using Wheat as the blog engine
 
 Visually, I'm using the default skin from [Howtonode.org](http://howtonode.org). That will change. Hoping to do more iteration than perfection.
 
-And, as OAR says, "It's 2am and I want to go to be-he-head.j So that's what I'll do. More tech details and posts to come! I bet you can barely container yourself ;)
+And, as OAR says, "It's 2am and I want to go to be-he-head." So that's what I'll do. More tech details and posts to come! I bet you can barely container yourself ;)
